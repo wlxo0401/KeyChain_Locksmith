@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3936B1902806B92200AEDFBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B18F2806B92200AEDFBF /* AppDelegate.swift */; };
+		3936B1922806B92200AEDFBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B1912806B92200AEDFBF /* SceneDelegate.swift */; };
+		3936B1942806B92200AEDFBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B1932806B92200AEDFBF /* ViewController.swift */; };
+		3936B1972806B92200AEDFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3936B1952806B92200AEDFBF /* Main.storyboard */; };
+		3936B1992806B92300AEDFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3936B1982806B92300AEDFBF /* Assets.xcassets */; };
+		3936B19C2806B92300AEDFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3936B19A2806B92300AEDFBF /* LaunchScreen.storyboard */; };
+		AD2DAE2CFB71321BDF8D17F6 /* Pods_KeyChain_Locksmith.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1ED21BFB7175256D03A4BB /* Pods_KeyChain_Locksmith.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37A8DB2FE944ACA91D45A0BE /* Pods-KeyChain_Locksmith.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChain_Locksmith.release.xcconfig"; path = "Target Support Files/Pods-KeyChain_Locksmith/Pods-KeyChain_Locksmith.release.xcconfig"; sourceTree = "<group>"; };
+		3936B18C2806B92200AEDFBF /* KeyChain_Locksmith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyChain_Locksmith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3936B18F2806B92200AEDFBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3936B1912806B92200AEDFBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3936B1932806B92200AEDFBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3936B1962806B92200AEDFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3936B1982806B92300AEDFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3936B19B2806B92300AEDFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3936B19D2806B92300AEDFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519F91B578238E9EB1A88C89 /* Pods-KeyChain_Locksmith.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChain_Locksmith.debug.xcconfig"; path = "Target Support Files/Pods-KeyChain_Locksmith/Pods-KeyChain_Locksmith.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1ED21BFB7175256D03A4BB /* Pods_KeyChain_Locksmith.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyChain_Locksmith.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3936B1892806B92200AEDFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2DAE2CFB71321BDF8D17F6 /* Pods_KeyChain_Locksmith.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3936B1832806B92200AEDFBF = {
+			isa = PBXGroup;
+			children = (
+				3936B18E2806B92200AEDFBF /* KeyChain_Locksmith */,
+				3936B18D2806B92200AEDFBF /* Products */,
+				BCD80B46469AEBA03E00618B /* Pods */,
+				E2840673CBC2F02900E3E76B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3936B18D2806B92200AEDFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3936B18C2806B92200AEDFBF /* KeyChain_Locksmith.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3936B18E2806B92200AEDFBF /* KeyChain_Locksmith */ = {
+			isa = PBXGroup;
+			children = (
+				3936B18F2806B92200AEDFBF /* AppDelegate.swift */,
+				3936B1912806B92200AEDFBF /* SceneDelegate.swift */,
+				3936B1932806B92200AEDFBF /* ViewController.swift */,
+				3936B1952806B92200AEDFBF /* Main.storyboard */,
+				3936B1982806B92300AEDFBF /* Assets.xcassets */,
+				3936B19A2806B92300AEDFBF /* LaunchScreen.storyboard */,
+				3936B19D2806B92300AEDFBF /* Info.plist */,
+			);
+			path = KeyChain_Locksmith;
+			sourceTree = "<group>";
+		};
+		BCD80B46469AEBA03E00618B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				519F91B578238E9EB1A88C89 /* Pods-KeyChain_Locksmith.debug.xcconfig */,
+				37A8DB2FE944ACA91D45A0BE /* Pods-KeyChain_Locksmith.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2840673CBC2F02900E3E76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE1ED21BFB7175256D03A4BB /* Pods_KeyChain_Locksmith.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3936B18B2806B92200AEDFBF /* KeyChain_Locksmith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3936B1A02806B92300AEDFBF /* Build configuration list for PBXNativeTarget "KeyChain_Locksmith" */;
+			buildPhases = (
+				E788CB95809B5061ACFD95C7 /* [CP] Check Pods Manifest.lock */,
+				3936B1882806B92200AEDFBF /* Sources */,
+				3936B1892806B92200AEDFBF /* Frameworks */,
+				3936B18A2806B92200AEDFBF /* Resources */,
+				D5485F185168B6F989CBE2A2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyChain_Locksmith;
+			productName = KeyChain_Locksmith;
+			productReference = 3936B18C2806B92200AEDFBF /* KeyChain_Locksmith.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3936B1842806B92200AEDFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3936B18B2806B92200AEDFBF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 3936B1872806B92200AEDFBF /* Build configuration list for PBXProject "KeyChain_Locksmith" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3936B1832806B92200AEDFBF;
+			productRefGroup = 3936B18D2806B92200AEDFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3936B18B2806B92200AEDFBF /* KeyChain_Locksmith */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3936B18A2806B92200AEDFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936B19C2806B92300AEDFBF /* LaunchScreen.storyboard in Resources */,
+				3936B1992806B92300AEDFBF /* Assets.xcassets in Resources */,
+				3936B1972806B92200AEDFBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5485F185168B6F989CBE2A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyChain_Locksmith/Pods-KeyChain_Locksmith-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyChain_Locksmith/Pods-KeyChain_Locksmith-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyChain_Locksmith/Pods-KeyChain_Locksmith-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E788CB95809B5061ACFD95C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyChain_Locksmith-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3936B1882806B92200AEDFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936B1942806B92200AEDFBF /* ViewController.swift in Sources */,
+				3936B1902806B92200AEDFBF /* AppDelegate.swift in Sources */,
+				3936B1922806B92200AEDFBF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3936B1952806B92200AEDFBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3936B1962806B92200AEDFBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3936B19A2806B92300AEDFBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3936B19B2806B92300AEDFBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3936B19E2806B92300AEDFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3936B19F2806B92300AEDFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3936B1A12806B92300AEDFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519F91B578238E9EB1A88C89 /* Pods-KeyChain_Locksmith.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59NQ3YR32K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyChain_Locksmith/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jitaekim.KeyChain-Locksmith";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3936B1A22806B92300AEDFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A8DB2FE944ACA91D45A0BE /* Pods-KeyChain_Locksmith.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59NQ3YR32K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyChain_Locksmith/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jitaekim.KeyChain-Locksmith";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3936B1872806B92200AEDFBF /* Build configuration list for PBXProject "KeyChain_Locksmith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936B19E2806B92300AEDFBF /* Debug */,
+				3936B19F2806B92300AEDFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3936B1A02806B92300AEDFBF /* Build configuration list for PBXNativeTarget "KeyChain_Locksmith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936B1A12806B92300AEDFBF /* Debug */,
+				3936B1A22806B92300AEDFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3936B1842806B92200AEDFBF /* Project object */;
+}
